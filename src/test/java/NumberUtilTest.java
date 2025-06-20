@@ -23,4 +23,8 @@ public class NumberUtilTest {
     void testEvenNumber() {
         assertEquals(9, NumberUtil.sumOdd(6)); // 1+3+5
     }
+    @Test
+    void test() {
+        assertEquals(0, NumberUtil.sumOdd(-9)); // 1+3+5
+    }
 }
